@@ -1,0 +1,13 @@
+.article{
+    background-color: var(--light-main);
+    padding: 1rem;
+}
+
+.article__heading{
+    font-weight: 600;
+    color: var(--main-color);
+}
+
+.article__content{
+    color: var(--main-color);
+}

@@ -1,0 +1,40 @@
+.author{
+    display: none;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--main-color);
+    color: var(--light-main);
+}
+
+.list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.link{
+    text-decoration: none;
+    color: var(--light-main);
+}
+
+@media screen and (min-width: 1150px){
+    .author{
+        display: block;
+    }
+    .footer{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .social{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}

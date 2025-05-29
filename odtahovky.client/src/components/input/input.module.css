@@ -1,0 +1,11 @@
+.label{
+    font-size: .8rem;
+    color: var(--main-color);
+}
+
+.input{
+    padding: .5em;
+    border: 1px solid var(--main-color);
+    border-radius: 5px;
+    background-color: var(--light-main);
+}

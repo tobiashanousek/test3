@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .5em;
+}
+.formBtn{
+    display: block;
+    width: fit-content;
+    padding: .5em 1em;
+    color: var(--main-color);
+    background-color: var(--light-main);
+    border: 1px solid var(--main-color);
+    border-radius: .5em;
+    align-self: flex-end;
+}

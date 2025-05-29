@@ -1,0 +1,25 @@
+.card{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: var(--secondary-color);
+}
+
+.title{
+    color: var(--light-main);
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+@media screen and (min-width: 1150px){
+   .card{
+       flex-direction: column;
+       max-width: 350px;
+       height: 350px;
+       border-radius: .5rem;
+       justify-content: center;
+   }
+    
+}

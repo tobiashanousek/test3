@@ -1,0 +1,15 @@
+.list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.link{
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+.heading{
+    color: var(--main-color);
+    font-weight: 400;
+}

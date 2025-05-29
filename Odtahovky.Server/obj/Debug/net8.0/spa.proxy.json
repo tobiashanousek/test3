@@ -1,0 +1,10 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:53977",
+"RedirectUrl": "",
+"LaunchCommand": "npm run dev",
+"WorkingDirectory": "C:\\Users\\ttomi\\source\\repos\\Odtahovky\\Odtahovky.Server\\..\\odtahovky.client",
+"MaxTimeoutInSeconds": "120",
+"KeepRunning": "false"
+}
+}

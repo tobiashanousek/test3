@@ -1,0 +1,11 @@
+
+
+.article__heading{
+    font-weight: 600;
+    color: var(--main-color);
+}
+
+.article__content{
+    color: var(--main-color);
+    font-weight: 400;
+}

@@ -1,0 +1,27 @@
+
+.highlight{
+    font-weight: 600;
+}   
+
+.text{
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    padding: 1rem;
+}
+.uploadContainer{
+    display: flex;
+    gap: 1rem;
+}
+
+.btn{
+    background-color: var(--light-main);
+    border: 1px solid var(--main-color);
+    color: var(--main-color);
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    width: fit-content;
+    align-self: flex-end;
+}

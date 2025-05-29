@@ -1,0 +1,153 @@
+@keyframes slideDown{
+    0%{
+        transform: translateY(-999px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+    
+}
+
+@keyframes slideUp{
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(-999px);
+        display: none;
+    }
+    
+}
+
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+    
+}
+
+@keyframes fadeOut{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+    
+}
+
+.logo{
+    height: 75px;
+    width: 75px;
+}
+
+.nav{
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    position: relative; 
+}
+
+.menu__dektop{
+    display: none;
+}
+
+
+.menu{
+    display: block;
+    position: absolute;
+    top: -999px;
+    left: 0;
+    width: 100%;
+    transform: translateY(-999px);
+    transition: .3s all;
+    animation: .5s slideUp;
+    animation: .2s fadeOut;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+.menu__toggle{
+    display: block;
+    position: absolute;
+    list-style: none;
+    top: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: var(--main-color);
+    width: 100%;
+    left: 0;
+    text-align: center;
+    transition: .3s all;
+    transform: translateY(100%) translateY(-100%);
+    animation: 1s slideDown;
+    animation: .2s fadeIn;
+}
+
+
+.menu__item{
+    padding: .5em;
+
+}
+
+.menu__link{
+    color: var(--light);
+    text-decoration: none;
+    background-color: var(--secondary-color);
+    display: flex;
+    padding: .5rem;
+    gap: .5em;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+}
+
+.button{
+    background-color: transparent;
+    width: 100%;
+    border: none;
+    height: 2rem;
+    width:  2rem;
+    padding: 0;
+    margin: 0;
+}
+
+.icon{
+   color: var(--light);
+   width: fit-content;
+   height: 100%;
+}
+
+.icon_menu{
+    display: flex;
+    gap: .5em;
+}
+
+@media screen and (min-width: 1150px){
+    .menu{
+        display: flex;
+        position: static;
+        transform: translateX(0);
+    }
+
+    .menu__link{
+        padding: .5em;
+        background-color: transparent;  
+    }
+    .menu__dektop{
+        display: block;
+    }
+
+    .icon_menu{
+        display: none;
+    }
+
+     
+ }

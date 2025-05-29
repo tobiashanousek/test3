@@ -1,0 +1,24 @@
+{
+  "Version": 1,
+  "Hash": "FLYbU6KGB1O/AYNh/2/mDg5YL0he0MuKVpQBp5NgPoM=",
+  "Source": "Odtahovky.Server",
+  "BasePath": "_content/Odtahovky.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\ttomi\\source\\repos\\Odtahovky\\odtahovky.client\\odtahovky.client.esproj",
+      "Version": 2,
+      "Source": "odtahovky.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

@@ -1,0 +1,9 @@
+
+
+
+.panel{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    margin: .5rem 0;
+}

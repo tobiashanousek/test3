@@ -1,0 +1,9 @@
+.success{
+    color: var(--secondary-color);
+    text-decoration:line-through;
+    transition: all 0.5s;
+}
+
+.error{
+    color: var(--error-color);
+}

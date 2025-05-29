@@ -1,0 +1,18 @@
+
+.uploadLabel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--light-main);
+    width: fit-content;
+    color: var(--main-color);
+    padding: 2rem 1.5rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    border: 1px solid var(--main-color);
+}
+
+.uploadBtn {
+    display: none;
+}

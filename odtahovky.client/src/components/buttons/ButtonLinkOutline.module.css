@@ -1,0 +1,11 @@
+
+
+.link{
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    background-color: transparent;
+    border: solid 1px var(--main-color);
+    color: var(--main-color);
+    width: fit-content;
+}

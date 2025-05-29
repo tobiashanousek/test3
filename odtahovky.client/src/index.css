@@ -1,0 +1,36 @@
+
+
+:root{
+  --main-color: #0055D3;
+  --light: #fff;
+  --light-main: #EDEEFF ;
+  --secondary-color: #00C6C1;
+  --error-color: #FF5D7A;
+  font-family: "inter", sans-serif;
+}
+
+
+
+#root{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+p{
+  color: var(--main-color);
+  margin: 0;
+}
+
+.img-responsive{
+  width: 100%;
+
+}
+
+@media screen and (min-width: 1150px){
+  :root{
+      background-color: var(--light-main);
+  }
+
+}

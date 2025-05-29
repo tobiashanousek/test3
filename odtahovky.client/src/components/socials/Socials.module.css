@@ -1,0 +1,21 @@
+.social__icons{
+    display: flex;
+    justify-content: space-evenly;
+    padding: .5rem;
+}
+
+.social{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--light-main);
+    color: var(--main-color);
+    align-items: stretch;
+    justify-content: center;
+}
+
+.social__heading{
+    font-weight: 400;
+    margin: 0;
+    padding: .5rem;
+}
